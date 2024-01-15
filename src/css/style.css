@@ -1,0 +1,58 @@
+@import url(/src/css/reset.css);
+
+
+
+
+
+/* desktop */
+@media screen and (min-width: 1024px){
+
+#container-apresentacao {
+    width: auto;
+    height: 830px;
+    background-image: url(/src/img/bg-foto.png);
+    background-size: cover;
+        
+}
+
+#apresentacao{ 
+    height: 830px;
+}
+
+#container-sobre {
+    width: 100%o;
+    height: 935px;
+    background-color: rgb(41, 40, 40);
+    
+        
+}
+
+#foto2 { 
+
+    background-image: url(/src/img/foto-sobre.png);
+    background-size: cover;
+
+}
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+
+#container-apresentacao {
+        width: 375px;
+        height: 600px;
+        background-image: url(/src/img/bg-foto-mobile.png);
+        background-size: cover;       
+            
+    }
+
+#container-sobre {
+        width: 385px;
+        height: 695px;
+        background-color: rgb(41, 40, 40);        
+            
+    }
+
+
+
+}
