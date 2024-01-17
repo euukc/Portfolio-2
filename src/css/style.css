@@ -21,10 +21,19 @@
 
 #container-sobre {
     width: 100%o;
-    height: 935px;
-    background-color: rgb(41, 40, 40);
-    
-        
+    height: 500px;   
+            
+}
+
+#container-servicos{
+    width: 100%;
+    height: 500px;
+}
+
+#container-habilidades{
+    width: auto;
+    height: 900px;
+    background-color: black;
 }
 
 #foto2 { 
@@ -33,6 +42,8 @@
     background-size: cover;
 
 }
+
+
 }
 
 /* mobile */
@@ -49,9 +60,12 @@
 #container-sobre {
         width: 385px;
         height: 695px;
-        background-color: rgb(41, 40, 40);        
+        
+             
             
     }
+
+    
 
 
 
