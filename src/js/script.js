@@ -7,15 +7,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
     itensMenu.forEach((item) => {
         item.addEventListener('click', () => {
-            const targetId = item.getAttribute('data-target');
-            const targetSection = document.getElementById(targetId);
+            const targetId = item.getAttribute('data-target');            
+            const targetSection = document.getElementById(targetId);            
             
             if (targetSection) {
                 targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         });
     });
+    
 });
 
+// seta para rolagem
+
+document.addEventListener('DOMContentLoaded', function (){
+    var scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+
+    window.addEventListener('scroll', function (){
+        if(window.scrollY > window.innerHeight / 2){
+            scrollToTopBtn.classList.add('visible');
+        } else {
+            scrollToTopBtn.classList.remove('visible');
+        }
+    });
+
+    scrollToTopBtn.addEventListener('click', function (){
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
 
 
