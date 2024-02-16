@@ -40,7 +40,7 @@
 }
 
 
-.container-sobre {
+#container-sobre {
     width: 100%;
     height: 500px;   
             
@@ -62,6 +62,32 @@
     background-image: url(/src/img/foto-sobre.png);
     background-size: cover;
 
+}
+
+#foto2::before, #foto2::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(14.6% + 30px);
+    height: calc(38.99% + 35px);
+    background: linear-gradient(45deg, #a200ff, #00ff00, #0e15da, #ffff00, #a200ff, #4f86ee, #001aff, #a200ff);
+    background-size: 300%;
+    border-radius: 20px;
+    animation: AnimarBorda 8s linear infinite;
+}
+
+@keyframes AnimarBorda {
+    0%{
+        background-position: 0;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+
+
+#foto2::after{
+    filter: blur(50px);
 }
 
 .container-certificados{
@@ -105,6 +131,56 @@
         height: 695px;      
              
             
-}  
+} 
+
+#foto2 { 
+
+    background-image: url(/src/img/foto-sobre.png);
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+
+} 
+
+#foto2::before, #foto2::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(47% + 20px);
+    height: calc(30% + 35px);
+    background: linear-gradient(45deg, #a200ff, #00ff00, #0e15da, #ffff00, #a200ff, #4f86ee, #001aff, #a200ff);
+    background-size: 300%;
+    border-radius: 20px;
+    animation: AnimarBorda 8s linear infinite;
+}
+
+@keyframes AnimarBorda {
+    0%{
+        background-position: 0;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+
+
+#foto2::after{
+    filter: blur(50px);
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    width: 40px;
+    bottom: 20px;
+    right: 10px;    
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  #scrollToTopBtn.visible {
+    opacity: 1;
+  }
 
 }

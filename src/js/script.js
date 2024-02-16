@@ -19,10 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // seta para rolagem
+var scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
-document.addEventListener('DOMContentLoaded', function (){
-    var scrollToTopBtn = document.getElementById('scrollToTopBtn');
-
+document.addEventListener('DOMContentLoaded', function (){  
 
     window.addEventListener('scroll', function (){
         if(window.scrollY > window.innerHeight / 2){
