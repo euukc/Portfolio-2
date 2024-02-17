@@ -68,8 +68,8 @@
     content: '';
     position: absolute;
     z-index: -1;
-    width: calc(14.6% + 30px);
-    height: calc(38.99% + 35px);
+    width: calc(15% + 30px);
+    height: calc(30% + 35px);
     background: linear-gradient(45deg, #a200ff, #00ff00, #0e15da, #ffff00, #a200ff, #4f86ee, #001aff, #a200ff);
     background-size: 300%;
     border-radius: 20px;
@@ -128,7 +128,7 @@
 
 #container-sobre {
         width: 385px;
-        height: 695px;      
+        height: 600px;      
              
             
 } 
