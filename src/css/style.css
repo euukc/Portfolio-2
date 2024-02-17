@@ -92,7 +92,7 @@
 
 .container-certificados{
     width: 100%;
-    height: 700px;
+    height: 100%;
     
 }
 
@@ -127,8 +127,8 @@
     }
 
 #container-sobre {
-        width: 385px;
-        height: 600px;      
+        width: 403px;
+        height: 535px;      
              
             
 } 
@@ -148,7 +148,7 @@
     position: absolute;
     z-index: -1;
     width: calc(47% + 20px);
-    height: calc(30% + 35px);
+    height: calc(24% + 35px);
     background: linear-gradient(45deg, #a200ff, #00ff00, #0e15da, #ffff00, #a200ff, #4f86ee, #001aff, #a200ff);
     background-size: 300%;
     border-radius: 20px;
