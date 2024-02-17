@@ -110,6 +110,10 @@
     font-size: 12px;
 }
 
+#menu-mobile{
+    display: none;
+}
+
 
 }
 
@@ -181,6 +185,27 @@
   
   #scrollToTopBtn.visible {
     opacity: 1;
+  }
+
+  .mobile-menu-icon{
+    display: block;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 10px;
+    color: white;
+    font-weight: 600;
+  }
+
+  .open{
+    display: block;
   }
 
 }

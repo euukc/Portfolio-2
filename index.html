@@ -19,11 +19,11 @@
     <nav class="w-full flex items-center justify-between py-2">
 
       <!-- icon menu responsive -->
-      <div class="block md:hidden flex justify-center items-center pl-2">
+      <div class="mobile-menu-icon md:hidden flex justify-center items-center pl-2">
         <span id="icon-menu">
           <img class="w-10 hover:cursor-pointer" src="/src/img/icon-menu.png" alt="icon-menu">
         </span>
-      </div>
+      </div>     
       <!-- end icon menu responsive -->
 
       <div class="hidden md:block">
@@ -34,13 +34,13 @@
 
       <menu class="hidden md:flex md:space-x-4 text-white" id="cabecalho-menu">
 
-        <li id="cabecalho-menu-itens" data-target="section1">INÍCIO</li>
-        <li id="cabecalho-menu-itens" data-target="section2">SOBRE</li>
-        <li id="cabecalho-menu-itens" data-target="section3">SERVIÇOS</li>
-        <li id="cabecalho-menu-itens" data-target="section4">HABILIDADES</li>
-        <li id="cabecalho-menu-itens" data-target="section5">CERTIFICADOS</li>
-        <li id="cabecalho-menu-itens" data-target="section6">PROJETOS</li>
-        <li id="cabecalho-menu-itens" data-target="section7">CONTATOS</li>
+        <li class="cabecalho-menu-itens" data-target="section1">INÍCIO</li>
+        <li class="cabecalho-menu-itens" data-target="section2">SOBRE</li>
+        <li class="cabecalho-menu-itens" data-target="section3">SERVIÇOS</li>
+        <li class="cabecalho-menu-itens" data-target="section4">HABILIDADES</li>
+        <li class="cabecalho-menu-itens" data-target="section5">CERTIFICADOS</li>
+        <li class="cabecalho-menu-itens" data-target="section6">PROJETOS</li>
+        <li class="cabecalho-menu-itens" data-target="section7">CONTATOS</li>
 
       </menu>
 
@@ -54,6 +54,19 @@
       </div>     
 
     </nav>
+
+    <div class="mobile-menu" id="menu-mobile">
+      <ul>
+      <li class="cabecalho-menu-itens" data-target="section1">INÍCIO</li>
+      <li class="cabecalho-menu-itens" data-target="section2">SOBRE</li>
+      <li class="cabecalho-menu-itens" data-target="section3">SERVIÇOS</li>
+      <li class="cabecalho-menu-itens" data-target="section4">HABILIDADES</li>
+      <li class="cabecalho-menu-itens" data-target="section5">CERTIFICADOS</li>
+      <li class="cabecalho-menu-itens" data-target="section6">PROJETOS</li>
+      <li class="cabecalho-menu-itens" data-target="section7">CONTATOS</li>
+      </ul>
+    </div>
+
   </header>
 
   <main>
@@ -198,11 +211,6 @@
 
 
       </div>
-
-
-
-
-
 
     </section>
   </main>

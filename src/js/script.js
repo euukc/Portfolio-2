@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const menu = document.getElementById('cabecalho-menu');
-    const itensMenu = menu.querySelectorAll('#cabecalho-menu-itens');
+    const itensMenu = menu.querySelectorAll('.cabecalho-menu-itens');
     
 
     itensMenu.forEach((item) => {
@@ -38,5 +38,19 @@ document.addEventListener('DOMContentLoaded', function (){
         });
     });
 });
+
+// menu show
+
+let clickMenu = document.querySelector('.mobile-menu-icon');
+
+clickMenu.addEventListener('click', function(){
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')){
+        menuMobile.classList.remove('open');
+    } else {
+        menuMobile.classList.add('open');
+    }
+
+})
 
 
