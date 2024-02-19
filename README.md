@@ -1,4 +1,4 @@
-# Porfólio - última versão
+# Portfólio - última versão
 
  ## 🛠️ Tecnologias Utilizadas
  
