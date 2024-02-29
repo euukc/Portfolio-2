@@ -18,7 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
 });
 
-// seta para rolagem
+//End Scroll para a Section
+
+// Seta para rolagem
+
 var scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
 document.addEventListener('DOMContentLoaded', function (){  
@@ -39,7 +42,9 @@ document.addEventListener('DOMContentLoaded', function (){
     });
 });
 
-// menu show
+// End Seta para rolagem
+
+// Menu Show Mobile
 
 let clickMenu = document.querySelector('.mobile-menu-icon');
 
@@ -53,4 +58,18 @@ clickMenu.addEventListener('click', function(){
 
 })
 
+// End Menu Show Mobile
 
+// Slides
+
+const swiper = new Swiper('.swiper', {
+    effect: 'cards',
+    cardsEffect: {
+      // ...
+    },
+  });
+
+
+  //AOS ANIMATION
+
+AOS.init();
