@@ -64,32 +64,6 @@
 
 }
 
-#foto2::before, #foto2::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    width: calc(15% + 30px);
-    height: calc(30% + 35px);
-    background: linear-gradient(45deg, #a200ff, #00ff00, #0e15da, #ffff00, #a200ff, #4f86ee, #001aff, #a200ff);
-    background-size: 300%;
-    border-radius: 20px;
-    animation: AnimarBorda 8s linear infinite;
-}
-
-@keyframes AnimarBorda {
-    0%{
-        background-position: 0;
-    }
-    100% {
-        background-position: 300%;
-    }
-}
-
-
-#foto2::after{
-    filter: blur(50px);
-}
-
 .container-certificados{
     width: 100%;
     height: 100%;

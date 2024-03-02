@@ -65,7 +65,7 @@ clickMenu.addEventListener('click', function(){
 const swiper = new Swiper('.swiper', {
     effect: 'cards',
     cardsEffect: {
-      // ...
+      
     },
   });
 
