@@ -11,6 +11,13 @@
     cursor: pointer;
 }
 
+.items-menu:hover {
+    text-shadow: 0 0 20px #fff;
+    text-shadow: 0 0 20px #fff;
+    text-shadow: 0 0 20px #8c52ff;
+    text-shadow: 0 0 20px #8c52ff;    
+}
+
 #scrollToTopBtn {
     position: fixed;
     bottom: 20px;
@@ -27,7 +34,7 @@
 
 .container-apresentacao {
     width: 100%;
-    height: 830px;
+    height: 930px;
     background-image: url(/src/img/bg-foto.png);
     background-size: cover;
         
