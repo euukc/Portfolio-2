@@ -84,6 +84,21 @@
 
 }
 
+.projetos{
+    width: 1300px;
+    height: 730px;
+}
+
+.projetos1{
+    width: 50%;
+    height: 100%;
+}
+
+.projetos1 img {
+    width: 100%;
+    height: 100%;
+}
+
 
 .copyright {
     font-size: 12px;
