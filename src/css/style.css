@@ -80,6 +80,7 @@
 .swiper{
     width: 800px;
     height: 550px;
+    cursor: pointer;
     
 }
 
@@ -114,5 +115,7 @@
 #menu-mobile{
     display: none;
 }
+
+
 
 }

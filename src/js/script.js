@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
 
     itensMenu.forEach((item) => {
-        item.addEventListener('click', () => {
+        item.addEventListener('click', () => {""
             const targetId = item.getAttribute('data-target');            
             const targetSection = document.getElementById(targetId);            
             
