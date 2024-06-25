@@ -1,40 +1,42 @@
 // Scroll para a Section
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const menu = document.getElementById('cabecalho-menu');
     const itensMenu = menu.querySelectorAll('.cabecalho-menu-itens');
-    
+
 
     itensMenu.forEach((item) => {
-        item.addEventListener('click', () => {""
-            const targetId = item.getAttribute('data-target');            
-            const targetSection = document.getElementById(targetId);            
-            
+        item.addEventListener('click', () => {
+            ""
+            const targetId = item.getAttribute('data-target');
+            const targetSection = document.getElementById(targetId);
+
             if (targetSection) {
                 targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         });
     });
-    
+
 });
 
 //End Scroll para a Section
+
 
 // Seta para rolagem
 
 var scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
-document.addEventListener('DOMContentLoaded', function (){  
+document.addEventListener('DOMContentLoaded', function () {
 
-    window.addEventListener('scroll', function (){
-        if(window.scrollY > window.innerHeight / 2){
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > window.innerHeight / 2) {
             scrollToTopBtn.classList.add('visible');
         } else {
             scrollToTopBtn.classList.remove('visible');
         }
     });
 
-    scrollToTopBtn.addEventListener('click', function (){
+    scrollToTopBtn.addEventListener('click', function () {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
@@ -44,13 +46,15 @@ document.addEventListener('DOMContentLoaded', function (){
 
 // End Seta para rolagem
 
+
+
 // Menu Show Mobile
 
 let clickMenu = document.querySelector('.mobile-menu-icon');
 
-clickMenu.addEventListener('click', function(){
+clickMenu.addEventListener('click', function () {
     let menuMobile = document.querySelector('.mobile-menu');
-    if (menuMobile.classList.contains('open')){
+    if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
     } else {
         menuMobile.classList.add('open');
@@ -60,16 +64,31 @@ clickMenu.addEventListener('click', function(){
 
 // End Menu Show Mobile
 
+
+
 // Slides
 
 const swiper = new Swiper('.swiper', {
     effect: 'cards',
     cardsEffect: {
-      
+
     },
-  });
+});
 
 
-  //AOS ANIMATION
+
+//AOS ANIMATION
 
 AOS.init();
+
+
+// btn WhatsApp
+
+const numero = '11994929467';
+const mensagem = encodeURIComponent('Olá. Vim do seu site e gostaria de fazer um orçamento com você :)')
+const btnMeContrate = document.getElementById('btn-mecontrate');
+
+btnMeContrate.addEventListener('click', () => {
+    window.open(`https://api.whatsapp.com/send?phone=${numero}&text=${mensagem}`, '_blank');
+});
+

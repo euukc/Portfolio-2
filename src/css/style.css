@@ -5,116 +5,116 @@
 
 
 /* desktop */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 
-#cabecalho-menu-itens:hover {
-    cursor: pointer;
-}
+    #cabecalho-menu-itens:hover {
+        cursor: pointer;
+    }
 
-.items-menu:hover {
-    text-shadow: 0 0 20px #fff;
-    text-shadow: 0 0 20px #fff;
-    text-shadow: 0 0 20px #8c52ff;
-    text-shadow: 0 0 20px #8c52ff;    
-}
+    .items-menu:hover {
+        text-shadow: 0 0 20px #fff;
+        text-shadow: 0 0 20px #fff;
+        text-shadow: 0 0 20px #8c52ff;
+        text-shadow: 0 0 20px #8c52ff;
+    }
 
-#scrollToTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  #scrollToTopBtn.visible {
-    opacity: 1;
-  }
+    #scrollToTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
 
-.container-apresentacao {
-    width: 100%;
-    height: 930px;
-    background-image: url(/src/img/bg-foto.png);
-    background-size: cover;
-        
-}
+    #scrollToTopBtn.visible {
+        opacity: 1;
+    }
 
-#apresentacao{ 
-    width: 100%;
-    height: 830px;
-}
+    .container-apresentacao {
+        width: 100%;
+        height: 930px;
+        background-image: url(/src/img/bg-foto.png);
+        background-size: cover;
 
+    }
 
-.container-sobre {
-    width: 100%;
-    height: 500px;   
-            
-}
-
-.container-servicos{
-    width: 100%;
-    height: 500px;
-}
+    #apresentacao {
+        width: 100%;
+        height: 830px;
+    }
 
 
-.container-habilidades{
-    width: 100%;
-    height: 940px;
-    background-color: black;
-}
+    .container-sobre {
+        width: 100%;
+        height: 500px;
 
-#foto2 { 
+    }
 
-    background-image: url(/src/img/foto-sobre.png);
-    background-size: cover;
-
-}
-
-.container-certificados{
-    width: 100%;
-    height: 100%;
-    
-}
-
-.swiper{
-    width: 800px;
-    height: 550px;
-    cursor: pointer;
-    
-}
+    .container-servicos {
+        width: 100%;
+        height: 500px;
+    }
 
 
-.container-projetos {
-    width: 100%;
-    height: 940px;
-    background-color: rgb(0, 0, 0);
+    .container-habilidades {
+        width: 100%;
+        height: 940px;
+        background-color: black;
+    }
 
-}
+    #foto2 {
 
-.projetos{
-    width: 1300px;
-    height: 730px;
-}
+        background-image: url(/src/img/foto-sobre.png);
+        background-size: cover;
 
-.projetos1{
-    width: 50%;
-    height: 100%;
-}
+    }
 
-.projetos1 img {
-    width: 100%;
-    height: 100%;
-}
+    .container-certificados {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .swiper {
+        width: 800px;
+        height: 550px;
+        cursor: pointer;
+
+    }
 
 
-.copyright {
-    font-size: 12px;
-}
+    .container-projetos {
+        width: 100%;
+        height: 940px;
+        background-color: rgb(0, 0, 0);
 
-#menu-mobile{
-    display: none;
-}
+    }
+
+    .projetos {
+        width: 1300px;
+        height: 730px;
+    }
+
+    .projetos1 {
+        width: 50%;
+        height: 100%;
+    }
+
+    .projetos1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    #menu-mobile {
+        display: none;
+    }
 
 
 

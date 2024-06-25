@@ -1,69 +1,89 @@
-@media screen and (max-width: 767px){
+@media screen and (max-width: 480px) {
 
-    #container-apresentacao {
-            width: 100%;
-            height: 600px;
-            background-color: black;                    
-        }
-      .swiper{
-          width: 300px;
-          height: 300px;          
-      }
+  #container-apresentacao {
+    width: 100%;
+    height: 600px;
+    background-color: black;    
+  }
+  
+  #btn-mecontrate {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+  }
 
-    .container-sobre {
-            width: 100%;
-            height: 535px;                
-                
-    } 
-    
-    #foto2 { 
-    
-        background-image: url(/src/img/foto-sobre.png);
-        background-size: cover;
-        height: 250px;
-        width: 200px;
-        border-radius: 10px;
-    
-    }     
-       
-    #scrollToTopBtn {
-        position: fixed;
-        width: 40px;
-        bottom: 20px;
-        right: 10px;    
-        cursor: pointer;
-        opacity: 0;
-        transition: opacity 0.4s ease;
-      }
-      
-      #scrollToTopBtn.visible {
-        opacity: 1;
-      }
-    
-      .mobile-menu-icon{
-        display: block;
-      }
-    
-      .mobile-menu {
-        display: none;
-      }
-    
-      .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-        padding-left: 15px;
-        color: white;
-        font-weight: 600;
-      }
-    
-      .open{
-        display: block;
-      }
+  .swiper {
+    width: 300px;
+    height: 300px;
+  }
 
-      .container-projetos {
-        background-color: black;
-      }
-    
-    }
-    
+  .container-sobre {
+    width: 100%;
+    height: 535px;
+
+  }
+
+  #foto2 {
+
+    background-image: url(/src/img/foto-sobre.png);
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+
+  }
+
+  .dev-web-services{
+    height: 300px;
+    width: 90%;
+  }
+
+  .dev-web-services1{
+    height: 300px;
+    width: 90%;
+  }
+
+  #scrollToTopBtn {
+    position: fixed;
+    width: 40px;
+    bottom: 20px;
+    right: 10px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  #scrollToTopBtn.visible {
+    opacity: 1;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 15px;
+    color: white;
+    font-weight: 600;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .container-projetos {
+    background-color: black;
+  }
+
+}

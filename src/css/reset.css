@@ -1,40 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import 'animate.css';
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-weight: 400;
-    --cor-titulos: #8c52ff;      
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  --cor-titulos: #8c52ff;
+}
 
-  .quem-sou {
-    color: var(--cor-titulos);
-  }
+.quem-sou {
+  color: var(--cor-titulos);
+}
 
-  #titulos {
-    color: var(--cor-titulos);
-    
-  }
+#titulos {
+  color: var(--cor-titulos);
 
-  .opacityPulse-css {
-    animation: opacityPulse 2s ease-out infinite;
+}
+
+.opacityPulse-css {
+  animation: opacityPulse 2s ease-out infinite;
+  opacity: 1;
+}
+
+@keyframes opacityPulse {
+  0% {
     opacity: 1;
   }
 
-  @keyframes opacityPulse {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-
-    
+  50% {
+    opacity: 0.5;
   }
+
+  100% {
+    opacity: 1;
+  }
+
+
+}
